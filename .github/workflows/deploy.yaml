@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - dev
 
 jobs:
   build:
@@ -27,5 +26,5 @@ jobs:
           region: ca-central-1
           deployment_package: deploy.zip
           existing_bucket_name: elasticbeanstalk-ca-central-1-514131334290
-          bucket_path: frontend
-          use_existing_bucket: true
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
