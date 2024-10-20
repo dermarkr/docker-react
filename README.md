@@ -1,2 +1,1 @@
-# docker-react
-Continuation of https://github.com/dermarkr/Docker-and-Kubernetes-the-complete-guide
+This folder contains code written for udemy course `Docker and Kubernetes The Complete Guide` https://endeavor.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436946#overview
